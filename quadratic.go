@@ -4,7 +4,6 @@ import (
 	"math/cmplx"
 )
 
-
 //Solve returns the roots of a quadratic equation
 //with coefficients a,b,c
 func Solve(a, b, c complex128) (xpos, xneg complex128) {
